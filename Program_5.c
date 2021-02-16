@@ -11,7 +11,7 @@ int main()
 {
     int a, b, temp;
     scanf("%d%d", &a, &b);
-
+  printf("%d %d are intput of a,b\n",a,b);
     //Write your code here
     temp=a;
     a=b;
@@ -19,6 +19,6 @@ int main()
     
 
   
-    printf("%d %d\n",a,b);
+    printf("%d %d are the output of a,b\n",a,b);
     return 0;
 }
